@@ -17384,4 +17384,95 @@ input[type=radio] {
   }
 }
 
+/* JSK Contact Team Section */
+.jsk-contact-team {
+   padding: 55px 0 45px;
+   background: #17251d;
+   border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.jsk-contact-heading {
+   text-align: center;
+   margin-bottom: 35px;
+}
+
+.jsk-contact-heading h3 {
+   color: #fff;
+   font-size: 28px;
+   font-weight: 600;
+   margin-bottom: 8px;
+}
+
+.jsk-contact-heading p {
+   color: #b5c4b9;
+   font-size: 15px;
+}
+
+.jsk-contact-card {
+   text-align: center;
+   padding: 22px 8px;
+   margin-bottom: 20px;
+   background: rgba(255,255,255,0.05);
+   border: 1px solid rgba(255,255,255,0.10);
+   border-radius: 10px;
+   height: calc(100% - 20px);
+   transition: all 0.3s ease;
+}
+
+.jsk-contact-card:hover {
+   background: rgba(45,196,87,0.10);
+   border-color: #2dc457;
+   transform: translateY(-5px);
+}
+
+.jsk-contact-card i {
+   color: #2dc457;
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+
+.jsk-contact-card h5 {
+   color: #fff;
+   font-size: 15px;
+   font-weight: 600;
+   margin-bottom: 7px;
+   overflow-wrap: anywhere;
+}
+
+.jsk-contact-card span {
+   display: block;
+   color: #b5c4b9;
+   font-size: 12px;
+   margin-bottom: 10px;
+}
+
+.jsk-contact-card a {
+   color: #2dc457;
+   font-size: 13px;
+   font-weight: 600;
+   overflow-wrap: anywhere;
+}
+
+.jsk-contact-card a:hover {
+   color: #fff;
+}
+
+@media (max-width: 575px) {
+   .jsk-contact-team {
+      padding: 40px 0 25px;
+   }
+
+   .jsk-contact-card {
+      padding: 18px 5px;
+   }
+
+   .jsk-contact-card h5 {
+      font-size: 13px;
+   }
+
+   .jsk-contact-card a {
+      font-size: 11px;
+   }
+}
+
 /*# sourceMappingURL=main.css.map */
